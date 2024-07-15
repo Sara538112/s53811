@@ -1,0 +1,251 @@
+body{
+    background-color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+#nav1{
+    background-color: rgba(193, 245, 168, 0.979);
+    display:flex;
+    width: 100%;
+    height: 50px;
+    justify-content:space-between;
+}
+#logo{
+    color: white;
+    margin: 10px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+header{
+    position: relative;
+}
+#menulogo{
+    width: 40px;
+    height: 40px;
+    cursor: pointer;
+    padding: 5px;
+    display: none;
+}
+
+.items1{
+    color: rgb(246, 244, 244);
+    background-color: rgb(206, 248, 211);
+    display:contents;
+    padding: 5px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.items1 li{
+    display: contents;
+}
+
+.dropdown{
+    color: rgb(246, 244, 244);
+    background-color: rgb(206, 248, 211);
+    display:none;
+    position:relative;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    justify-content: center;
+
+}
+@media(width: 500px){
+    #menulogo{
+        display: block;
+    }
+    .items1{
+        display: none;
+    }
+    .dropdown{
+        display: flex;
+    }
+}
+
+#dv1{
+    background-image: url('https://i.pinimg.com/564x/2b/4f/84/2b4f84639b1d3f826db5368fef06ea58.jpg');
+    background-size:cover;
+    height: 600px;
+}
+#txtHolder{
+    padding-top: 450px;
+    text-align: center;
+}
+#dv1 h3{ 
+    color: rgb(2, 78, 2);
+    font-weight: bold;
+    font-size: 15px;
+    display:inline-flex;
+  
+}
+#dv1 h1{
+    color: rgb(2, 78, 2);
+    font-weight: bold;
+    font-size: 50px;
+    margin: 1px;
+}
+
+#dv2{
+    width: 100%;
+    height: 400px;
+    margin-left: 10px;
+    padding-top: 200px;
+}
+
+#txt1{
+    color: rgb(145, 107, 53);
+    text-align: center;
+    font-weight: 100;
+}
+
+#txt2{
+    color: rgb(2, 78, 2);
+    font-size: 30px;
+    text-align: center;
+}
+
+#txt3{
+    font-size: 15px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: rgb(145, 107, 53);
+    padding: 10px;
+}
+
+#buttn1{
+    background-color: rgba(193, 245, 168, 0.979);
+
+    color:  rgb(2, 78, 2);
+    font-size: 20px;
+    border-radius: 30px;
+    margin-left: 40%;
+    margin-top: 20px;
+    padding: 10px;
+    border: none;
+}
+
+#istatistik{
+    width: 100%;
+    height: 500px;
+    background-color: rgba(193, 245, 168, 0.979);
+    margin-top: 150px;
+    padding-top: 5%;
+}
+
+.card2{
+    display:flex;
+    text-align: center;
+}
+#dv3{
+   width: 50%;
+   text-align: center;
+}
+#dv4{
+    width: 50%;
+    text-align: center;
+}
+#num1{
+    font-size:35px ;
+    color: rgb(150, 115, 67);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+#txt4{
+    font-size:15px ;
+    color: rgb(145, 107, 53);
+}
+#num2{
+    font-size:35px ;
+    color: rgb(147, 114, 67);
+}
+#txt5{
+    font-size:15px ;
+    color: rgb(145, 107, 53);
+}
+
+#dv5{
+    padding-top: 300px;
+}
+
+.sliders{
+    position:relative;
+    display:flex;
+    width: 100%;
+    height: 400px;
+    overflow:hidden;
+    justify-content: center;
+}
+.slider
+{
+    width: 60%;
+    position: absolute;
+    background-color: rgba(193, 245, 168, 0.979);
+    padding: 10px;
+    margin: 10px;
+}
+#slide1 #slide2 #slide3{
+    width: 100px;
+}
+.sliders input{
+    display: none;
+}
+.txt3{
+    color: rgb(145, 107, 53);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+#txt6{
+    font-size: 20px;
+    font-weight: bold;
+    color: rgb(2, 78, 2);
+}
+.txt7{
+    font-size: 20px;
+    color: rgb(145, 107, 53);
+    font-family: 'Times New Roman', Times, serif;
+}
+#txt7{
+    color: rgb(145, 107, 53);
+
+}
+#dv6{
+    margin-left: 45%;
+    padding-bottom: 35%;
+}
+#dv6 label{
+    height: 20px;
+    border-radius: 50%;
+    margin: 5px;
+    padding: 7px;
+    border: solid #086915 3px;
+    cursor: pointer;
+    transition: all 0.15s ease;
+}
+#s1:checked ~#slide1
+{
+    margin-left: 0;
+}
+
+#s2:checked ~ #slide2
+{
+    margin-left: -100%;
+}
+
+#s3:checked ~ #slide3
+{
+    margin-left: -200%;
+
+}
+.dv8{
+    background-color: rgba(193, 245, 168, 0.979);
+}
+.dv9{
+    background-color: rgba(193, 245, 168, 0.979);
+    padding: 10px;
+}
+#logo4{
+    color: white;
+    font-size: 35px;
+    display: contents;
+
+}
+
+.logo2{
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    padding: 5px;
+}
